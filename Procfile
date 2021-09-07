@@ -1,1 +1,1 @@
-web: java -jar target/1.0.0-BUILD-SNAPSHOT.war
+web: java $JAVA_OPTS -Dserver.port=$PORT -jar target/controller-0.1.0.jar
